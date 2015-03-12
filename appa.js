@@ -9,7 +9,7 @@ function createAnimationzone(x, appaHeight)
 	div.style.position = "absolute";
 	div.style.zIndex = -999;
 
-	document.getElementbyId('container').appendChild(div);
+	document.getElementById('container').appendChild(div);
 
 	return div;
 }
