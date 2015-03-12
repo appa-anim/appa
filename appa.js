@@ -161,6 +161,7 @@ var rightFrames =
 		'https://i.imgur.com/mL9B41O.png'	
 	]
 
+$(window).load(function() {
 // Create animation zone : (starting x value on webpage, height of appa)
 var animationZone = createAnimationzone(0, 150)
 
@@ -207,3 +208,5 @@ setTimeout(function(){
 	 moveAppaVert, 150, appa, animationZone,
 	 animationZone.offsetHeight / 50, vertDirection);
 }, 500)
+});
+
