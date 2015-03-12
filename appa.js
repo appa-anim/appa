@@ -6,7 +6,7 @@ function createAnimationzone(x, appaHeight)
 	div.style.height = appaHeight * 2 + "px";
 	div.offsetTop = 0;
 	div.id = "animationZone";
-	div.top = 0+"px";
+	div.style.top = 0 + "px";
 	div.style.position = "fixed";
 	div.style.zIndex = -999;
 
