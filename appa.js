@@ -8,7 +8,7 @@ function createAnimationzone(x, appaHeight)
 	div.id = "animationZone";
 	div.style.top = 0 + "px";
 	div.style.position = "fixed";
-	div.style.zIndex = -999;
+	div.style.zIndex = 999;
 
 	document.getElementById('container').appendChild(div);
 
